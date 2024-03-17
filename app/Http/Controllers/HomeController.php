@@ -11,6 +11,7 @@ class HomeController extends Controller
         $data = array(
             'title' => 'Home Page'
         );
+        // return view('index',$data);
         return view('home',$data);
     }
 }
